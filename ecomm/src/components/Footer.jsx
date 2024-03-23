@@ -16,8 +16,7 @@ export default function Footer() {
             <img src={logo} className='me-2' alt="" />AlMoeed <span>Technologies</span> 
           </h6>
           <p>
-            Here you can use rows and columns to organize your footer content. Lorem ipsum
-            dolor sit amet, consectetur adipisicing elit.
+          We gives you your office on your desktop or on your mobile no matter where you are. All you need to do is to <br /><strong >STAY CONNECTED
           </p>
         </div>
         
