@@ -12,7 +12,7 @@ import ERPCloud from "./components/cloudServices/cloudSection/ERPCloud";
 import Support from "./components/cloudServices/cloudSection/Support";
 import SoftwareSolutions from "./components/softwareServices/SoftwareServices";
 import Marketing from "./components/marketing/Marketing";
-
+import Footer from './components/Footer';
 function App() {
   return (
     <div className="App">
@@ -29,13 +29,8 @@ function App() {
           <Route exact path="/cloud/services/support" element={<Support />} />
           <Route exact path="/software/services" element={<SoftwareSolutions />} />
           <Route exact path="/marketing/services" element={<Marketing />} />
-
-
-
-
-
-
         </Routes>
+        <Footer></Footer>
       </BrowserRouter>
     </div>
   );

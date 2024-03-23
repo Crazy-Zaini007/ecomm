@@ -131,6 +131,12 @@ text-decoration: none;
 }
 .home_page .solutions .service{
   height: auto;
+  background: rgba(21, 73, 124, 0);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(3px);
+-webkit-backdrop-filter: blur(3px);
+/* border: 1px solid rgba(251, 253, 255, 0.3); */
   
 }
 .home_page .solutions img {
@@ -1351,7 +1357,6 @@ border: 2px solid rgb(118, 118, 250);
   border-radius: 100px;
   border: 2px solid rgb(118, 118, 250);
   width: 75%;
-
 }
 .main_soft .bottom_solutions{
   background: url('./assets/webdevelopment.jpg');
@@ -1382,7 +1387,7 @@ border: 2px solid rgb(118, 118, 250);
 }
 .main_soft .bottom_bg .bottom_bg_text{
   position: absolute;
-  top: 30%;
+  top: 25%;
 }
 .main_soft .bottom_bg .bottom_bg_text h4{
   font-size: 22px;
@@ -1974,24 +1979,22 @@ border: 1px solid rgba(251, 253, 255, 0.3);
   height: 100vh;
 }
 @media screen and (min-width:740px) {
-  .marketing .bottom_solutions .bottom_col {
-top: 300px;
+.marketing .bottom_solutions .bottom_col {
+top: 150px;
 position: relative;
 height: auto;
 background: rgba(21, 73, 124, 0);
 border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(1px);
--webkit-backdrop-filter: blur(1px);
+backdrop-filter: blur(3px);
+-webkit-backdrop-filter: blur(3px);
 border: 1px solid rgba(251, 253, 255, 0.3);
   }
- 
  
 }
 @media screen and (max-width:739px) {
   .marketing .bottom_solutions .bottom_col {
     margin-top: 50px;
-  
   } 
 }
 .marketing .bottom_bg{
@@ -2025,4 +2028,34 @@ border: 1px solid rgba(251, 253, 255, 0.3);
   font-size: 8px;
   margin-right: 10px;
   display: inline-flex;
+}
+
+/* Footer */
+footer{
+  background-color: #051b41;
+}
+footer img{
+  height: 38px;
+  width: 38px;
+  display: inline;
+}
+footer .brand_name{
+  color: #013a99;
+  font-weight: 600;
+ -webkit-text-stroke: 1px #013a99;
+
+
+}
+footer .brand_name span{
+  color: #0a7a2f;
+  font-weight: 600;
+ -webkit-text-stroke: 1px #0a7a2f;
+
+
+}
+footer h6{
+  color: white;
+  font-weight: 500;
+ -webkit-text-stroke: 0px white;
+ letter-spacing: 1px;
 }

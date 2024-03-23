@@ -31,7 +31,7 @@ const[option8, setOption8]=useState(false)
                 <div className="row ">
                     <div className='col-lg-6 col-md-5 pt-md-5'>
                         <h2>Leading Business Communication <span>Solution Provider</span></h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, laborum! Tenetur officiis illo vitae ut nostrum, iste cumque doloribus tempore.</p>
+                        <p>We gives you your office on your desktop or on your mobile no matter where you are. All you need to do is to <br /><strong >STAY CONNECTED</strong>!</p>
                         <Link className="btn m-1 " to='/'>Get Started</Link>
                         {/* <Link  className="btn m-1 login_btn px-4 rounded" to='/login_seller'>Login</Link> */}
 
@@ -54,7 +54,7 @@ const[option8, setOption8]=useState(false)
                     <h4 className='text-center mb-md-5 mb-3'>Services & Solutions</h4>
                     
                     <div className="col-xl-4 col-md-6 my-1 p-0">
-                        <div className="service text-center border m-1 bg-white rounded py-4 px-2  ">
+                        <div className="service text-center  m-1 bg-white rounded py-4 px-2  ">
                             <img src={cable} alt="service" />
 
                             <h3 className='my-2'>Structural Cabling / Networking</h3>
@@ -62,7 +62,7 @@ const[option8, setOption8]=useState(false)
                         </div>
                     </div>
                     <div className="col-xl-4 col-md-6 my-1 p-0 ">
-                        <div className="service text-center m-1  border bg-white rounded py-4 px-2 ">
+                        <div className="service text-center m-1   bg-white rounded py-4 px-2 ">
 
                             <img src={wifi} alt="service" />
 
@@ -72,7 +72,7 @@ const[option8, setOption8]=useState(false)
                         </div>
                     </div>
                     <div className="col-xl-4 col-md-6 my-1 p-0">
-                        <div className="service text-center m-1 border bg-white rounded py-4 px-2 ">
+                        <div className="service text-center m-1 bg-white rounded py-4 px-2 ">
 
                             <img src={phone} alt="service" />
 
@@ -82,7 +82,7 @@ const[option8, setOption8]=useState(false)
                         </div>
                     </div>
                     <div className="col-xl-4 col-md-6 my-1 p-0">
-                        <div className="service text-center border m-1 bg-white rounded py-4 px-2 ">
+                        <div className="service text-center  m-1 bg-white rounded py-4 px-2 ">
 
                             <img src={cloud} alt="service" />
                             <h3 className='my-2'>Cloud Services</h3>
@@ -91,7 +91,7 @@ const[option8, setOption8]=useState(false)
                         </div>
                     </div>
                     <div className="col-xl-4 col-md-6 my-1 p-0">
-                        <div className="service text-center border m-1 bg-white rounded py-4 px-2 ">
+                        <div className="service text-center  m-1 bg-white rounded py-4 px-2 ">
                             <img src={software} alt="service" />
                             <h3 className='my-2'>Software Development</h3>
                             <p>We help you design and develop the future of your company’s digital products and business, Explore now.</p>
@@ -99,7 +99,7 @@ const[option8, setOption8]=useState(false)
                         </div>
                     </div>
                     <div className="col-xl-4 col-md-6 my-1 p-0">
-                        <div className="service text-center border m-1 bg-white rounded py-4 px-2 ">
+                        <div className="service text-center m-1 bg-white rounded py-4 px-2 ">
                             <img src={marketing} alt="service" />
                             <h3 className='my-2'>Marketing Solutions</h3>
                             <p>Generate sales online and beat the industry, through Brand awareness, Digital Marketing & E-Commerce Solutions with us!</p>
@@ -108,7 +108,7 @@ const[option8, setOption8]=useState(false)
                     </div>
 
                     <div className="col-xl-4 col-md-6 my-1 p-0">
-                        <div className="service text-center border m-1 bg-white rounded py-4 px-2 ">
+                        <div className="service text-center  m-1 bg-white rounded py-4 px-2 ">
                             <img src={sound} alt="service" />
 
                             <h3 className='my-2'>Sound Systems</h3>
@@ -117,7 +117,7 @@ const[option8, setOption8]=useState(false)
                         </div>
                     </div>
                     <div className="col-xl-4 col-md-6 my-1 p-0">
-                        <div className="service text-center m-1 border bg-white rounded py-4 px-2 ">
+                        <div className="service text-center m-1  bg-white rounded py-4 px-2 ">
                             <img src={fiber} alt="service" />
 
                             <h3 className='my-2'>Fiber Optics Solutions</h3>
@@ -126,7 +126,7 @@ const[option8, setOption8]=useState(false)
                         </div>
                     </div>
                     <div className="col-xl-4 col-md-6 my-1 p-0">
-                        <div className="service text-center border m-1 bg-white rounded py-4 px-2 ">
+                        <div className="service text-center  m-1 bg-white rounded py-4 px-2 ">
 
                             <img src={cctv} alt="service" />
 
@@ -138,7 +138,7 @@ const[option8, setOption8]=useState(false)
 
 
                     <div className="col-xl-4 col-md-6 my-1 p-0">
-                        <div className="service text-center border m-1 bg-white rounded py-4 px-2 ">
+                        <div className="service text-center  m-1 bg-white rounded py-4 px-2 ">
                             <img src={microWave} alt="service" />
 
                             <h3 className='my-2'>Microwave Radios</h3>
@@ -147,7 +147,7 @@ const[option8, setOption8]=useState(false)
                         </div>
                     </div>
                     <div className="col-xl-4 col-md-6 my-1 p-0">
-                        <div className="service text-center border m-1 bg-white rounded py-4 px-2 ">
+                        <div className="service text-center m-1 bg-white rounded py-4 px-2 ">
                             <img src={repair} alt="service" />
 
                             <h3 className='my-2'>Electronics Repair</h3>

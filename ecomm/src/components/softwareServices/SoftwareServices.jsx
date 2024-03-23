@@ -196,7 +196,7 @@ export default function SoftwareServices() {
               </div>
             </div>
           </div>
-          <div className="row bottom_bg justify-content-center">
+          <div className="row bottom_bg justify-content-center ">
             <div className="col-lg-9 col-ms-12 bottom_bg_text">
               <div className="row">
                 <div className="col-md-3 ">
