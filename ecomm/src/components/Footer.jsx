@@ -16,7 +16,7 @@ export default function Footer() {
             <img src={logo} className='me-2' alt="" />AlMoeed <span>Technologies</span> 
           </h6>
           <p>
-          We gives you your office on your desktop or on your mobile no matter where you are. All you need to do is to <br /><strong >STAY CONNECTED
+          We gives you your office on your desktop or on your mobile no matter where you are. All you need to do is to <br /><strong >STAY CONNECTED</strong>
           </p>
         </div>
         
