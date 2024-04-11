@@ -15,9 +15,9 @@ export default function Footer() {
           <h6 className="text-uppercase fw-bold mb-4 brand_name">
             <img src={logo} className='me-2' alt="" />AlMoeed <span>Technologies</span> 
           </h6>
-          <p>
+          {/* <p>
           We gives you your office on your desktop or on your mobile no matter where you are. All you need to do is to <br /><strong >STAY CONNECTED</strong>
-          </p>
+          </p> */}
         </div>
         
         <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">

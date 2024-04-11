@@ -1,244 +1,196 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 
-import shoppingicon from '../../assets/icons/shopping-cart-icon.png'
-import designicon from '../../assets/icons/designicon.png'
-import uiux from '../../assets/icons/ui-ux icon.png'
-import codeicon from '../../assets/icons/developmenticon.png'
-import integrationicon from '../../assets/icons/integrationicon.png'
-import conversionicon from '../../assets/icons/conversionicon.png'
-import supporticon from '../../assets/icons/supporticon.png'
-import shopifylogo from '../../assets/icons/shopifylogo.png'
-import woocommerecelogo from '../../assets/icons/WooCommercelogo.png'
-import colordesignicons from '../../assets/icons/colordesignicon.png'
+import laptopicon from '../../assets/icons/laptop-icons.png'
+import graphic_card_icon from '../../assets/icons/graphic-card-icon.png'
+import game_console_icon from '../../assets/icons/game-controller-icon.png'
+import tablets_icon from '../../assets/icons/tablets-icon.png'
+import phone_icon from '../../assets/icons/smartphones-icon.png'
+import drones_icon from '../../assets/icons/drones-icon.png'
+import cameras_icon from '../../assets/icons/cameras-icon.png'
 
-import logodesign from '../../assets/icons/logo-design-1.png'
-import printdesign from '../../assets/icons/printbranding.png'
-import uidesign from '../../assets/icons/uilogo.png'
-import socialdesignicon from '../../assets/icons/share-post.png'
-import goalicon from '../../assets/icons/goal-icon.png'
-
-
-import marketingimage from '../../assets/markeitingimage.jpg'
-
-
-import appleicon from '../../assets/icons/apple_icon.png'
-import androidicon from '../../assets/icons/androidicon.png'
-import appdevelopmentimage from '../../assets/development.jpg'
-
-
-export default function Marketing() {
+export default function ElectronicRepair() {
   return (
-    <div className='marketing'>
-     <div className="container-fluid software_solutions">
+    <div className='electronics'>
+     <div className="container-fluid services">
         <div className="row ">
         <div className="col-md-12 main_soft_top text-center py-5">
-            <h2>Marketing</h2>     
+            <h2>Electronics Repairing</h2>     
             </div>
         </div>
         </div> 
-        <div className="container">
-        <div className="row pt-md-5 pt-4 main_soft_intro ">
-            <h4 className='text-center'>Why Choose Our Marketing Servcies?</h4>
-            <div className="col-md-6 left py-md-3 py-2 px-md-5 px-2">
-                <p>Generate sales online and beat the industry, through Brand awareness, Digital Marketing & E-Commerce Solutions with us!</p>
-            </div>
-            <div className="col-md-6 right py-md-3 py-2">
-                <p>We cares about your business, With the client first approach we are covering all aspects of business and marketing including online selling via ecommerce platforms, digital marketing through social media, enhanced web optimization for search engines and making your product ‘a brand’ by communicating to your customers through impressive design outlook.</p>
-            </div>
-        </div>
-        <div className="row pt-md-5 pt-4 ecomm_icon justify-content-center">
-               <h4 className='text-center'><img src={shoppingicon} alt="" /> <br /><span className='me-1'> Ecommerce </span>Solutions</h4>
-               <h6 className='text-center'>We sell your product Globally!</h6>
-           
-        </div>
+        <div className="container top">
+          <div className="row my-4">
+            <h4 className='text-center my-1'>What We provide ?</h4>
+            <p className='text-center my-1'>We are providing the repairing services listed below.</p>
 
-        
-        </div>
-        <div className="container-fluid">
-        <div className="row bottom mt-5 justify-content-center ">
-          <div className="col-md-5 px-md-5 px-4 py-md-4 py-3 my-auto">
-            <h5 className='my-4'>Sell online, <br />Sell anywhere with us!</h5>
-          </div>
-          <div className="col-md-6 px-md-5 px-2 py-4 my-auto">
-            <div className="text  my-auto">
-              <div className="row py-4 px-3  m-0 ">
-                <div className="col-md-6 px-3 py-2 border_col">
-                <img src={designicon} alt="" />
-                  <h4 className='mt-2'>Comprehensive Design</h4>
-                  <p>Delivering high quality responsive designs for your ecommerce store fulfilling all business requirements to increase your ROI.
-                  </p></div>
-                <div className="col-md-6 px-3 py-2 ">
-                <img src={uiux} alt="" />
-                  <h4 className='mt-2'>Smooth User Experience</h4>
-                  <p>Streamline your customer's shopping experience from search to log in, payments to order tracking with hassle free user experience.</p></div>
-                  <hr className='px-5'/>
-                <div className="col-md-6 px-3 pb-2 pt-0 border_col">
-                <img src={codeicon} alt="" />
-                  <h4 className='mt-2'>Development Services</h4>
-                  <p>Benefiting you, by our time & costing professional development services. Secure your sales by user/ mobile-friendly web store development</p>
-                  </div>
-                 
-                <div className="col-md-6 px-3 pb-2 pt-0  rounded">
-                <img src={integrationicon} alt="" />
-                  <h4 className='mt-2'>Integration</h4>
-                  <p>Payment gateways integration for reliable and secure payments/ transactions, so you can scale up your business everywhere.</p>
-                    </div>
-                    <hr className=' px-5'/>
-                    <div className="col-md-6 px-3 pb-2 pt-0 border_col">
-                <img src={conversionicon} alt="" />
-                  <h4 className='mt-2'>Higher Conversion</h4>
-                  <p>Flawless navigation experiences means 'Conversion optimization', converting web traffic to your loyal customer, increasing sales revenue.</p>
-                  </div>
-                 
-                <div className="col-md-6 px-3 pb-2 pt-0  rounded">
-                <img src={supporticon} alt="" />
-                  <h4 className='mt-2'>Support</h4>
-                  <p>Our Marketing services includes after sales support & maintenance so you can focus and manage your on site business with no worries in mind!</p>
-                    </div>
-              </div>
-            </div>
-          </div>
-        </div>  
-        </div>
-        <div className="container-fluid development ">
-          <div className="row py-5">
-            <h5 className='text-center'>Expert in <span>Custom App Store Development</span> & <span>Built in E Commerce Platforms</span></h5>
-            <p className='text-center my-3'>We are fulfilling your all unique ecommerce requirements by building custom ecommerce stores here! <br /> Our development team is highly expert in platforms like Shopify & Woo Commerce as well.</p>
-           <div className="images text-center">
-           <img className='text-center my-1 mx-2' src={shopifylogo} alt="" />
-            <img className='text-center my-1 mx-2' src={woocommerecelogo} alt="" /> <br />
-            <button className='btn mt-3 py-2 mb-4'>Get a Quote Now</button>
-           </div>
-          </div>
-        </div>
-          <div className="container-fluid branding ">
-          <div className="row pt-5 justify-content-center">
-          <div className="col-md-9 text-center">
-          <img className='text-center' src={colordesignicons} alt="" />
-           <h4 className='text-center mt-2'>Branding</h4>
-           <h5 className='text-center mt-2 mb-4'>Not just marketing!</h5>
-            <p className='text-center my-3'>Grow your sales with significant branding image, We let your market niche prioritize you among all competitors. All you need is a Smart and Confidant brand out look which includes Logo/Identity design, Printing Material like stationary designs or packaging, a Simple but unique Website for online presence and a continues Social Media Marketing to engage customers anytime they want!</p>
-           <h6 className='text-center mt-4 '>Design services you need in one place</h6>
-          </div>
           </div>
         </div>
       
-        <div className="container-fluid  soft_expertise">
-            <div className="row justify-content-center software_row_one">
-                <div className="col-md-12 text-center">
-                   
-                    <ul className='my-0 mx-auto'>
-                        <li className='mx-md-4 mx-3 '>
-                            <img src={logodesign} className='mt-3 mb-2' alt="" />
-                            <h6 className='pt-3 pb-1'>Identity/ <br /> Logo Design</h6>
-                        </li>
-                        <li className='mx-md-4 mx-3 '>
-                            <img src={printdesign} className='mt-3 mb-2' alt="" />
-                            <h6 className='pt-3 pb-1'>Print <br /> Designs</h6>
-
-                        </li>
-                        <li className='mx-md-4 mx-3'>
-                            <img src={uidesign} className='mt-3 mb-2' alt="" />
-                            <h6 className='pt-3 pb-1'>UI UX <br /> Designing</h6>
-
-                        </li>
-                        <li className='mx-md-4 mx-3'>
-                            <img src={socialdesignicon} className='mt-3 mb-2' alt="" />
-                            <h6 className='pt-3 pb-1'>Social Media <br /> Designing</h6>
-                        </li>
-                       
-                    </ul>
-                </div>
-               
-            </div>
-            <div className="row software_row_two justify-content-center">
-           <div className="row mt-5 pt-5">
-           <div className="col-md-4 ">
-                  <h4 className='text-md-end text-center'>Ideate Automate</h4>
-                </div>
-                <div className="col-md-8 text-start">
-                  <Link className='mx-2'>Analyse</Link>
-                  <Link className='mx-2'><i className="fas fa-circle"></i> Prototype</Link>
-                  <Link className='mx-2'><i className="fas fa-circle"></i> Develop</Link>
-                  <Link className='mx-2'><i className="fas fa-circle"></i> Test</Link>
-                  <Link className='mx-2'><i className="fas fa-circle"></i> Deploy</Link>
-                </div>
-           </div>
-            </div>
-            <div className="row branding_bg justify-content-center">
-              <div className="col-md-6 col-sm-12  text-center text_col">
-                <h6 >Give your brand a boost by clear visualization, Make it Visible.</h6>
-                 <button className='btn  py-2 mb-4 mt-3'>Get a Quote Now</button>
-              </div>
-            </div>
-
-            <div className="row justify-content-center our_products px-md-3 px-1 mx-2 py-0">
-              <div className="col-md-9">
-              <div className="images text-center">
-                <img src={goalicon} alt="" />
-                <h4 className='my-2'><span>Digital </span>Marketing</h4>
-                <h6 className='mt-3'>Sales growth by allowing customers to follow you everywhere!</h6>
-                <p className='mt-3'>Optimize your website to get on the top of Google ranking, Our google certified professionals are expert in Search Engine Optimization following design responsiveness, keyword analysis, up to date algorithms, organic and paid search.</p>
-                <p className='mt-4'>We help you to market your product by trending on social media & tailor you marketing cost by taking full advantage of digital marketing.</p>
-                <h5></h5>
-              </div>
-              </div>
-            <div className="col-md-5 col-sm-12  px-3 my-auto">
-                  <h6 className='text-start'>Marketing that let your potential customers intact with you!</h6>
-                  <p className="high-p mt-4"><i className="fa-solid fa-check me-2" aria-hidden="true"></i>SEO rankings & Search engine accessibility</p>
-                    <p className="high-p mt-2"><i className="fa-solid fa-check me-2" aria-hidden="true"></i>Paid Campaigns for Social Media Platforms</p>
-                    <p className="high-p mt-2"><i className="fa-solid fa-check me-2" aria-hidden="true"></i><span>Pay Per Click</span> Google Marketing</p>
-                    <p className="high-p mt-2"><i className="fa-solid fa-check me-2" aria-hidden="true"></i><span>Blogs</span>, Content Marketing</p>
-                    <div className="text text-center">
-                  <button className='btn mt-5 px-5 py-2 mb-4'>Get a Quote Now</button>
-
-                    </div>
-                  </div>
-                  <div className="col-lg-6 col-md-7 px-3">
-                  <img src={marketingimage} alt="" />
-                  </div>
-                 
-            </div>
-
+        <div className="container top">
+          <div className="row my-4">
+            <h5 className='text-center my-1'>1- Laptops Repairing</h5>
+          </div>
         </div>
         <div className="container-fluid">
-          <div className="row justify-content-center px-2 bottom_solutions shadow py-5">
-            <div className="col-lg-9 col-md-10 col-sm-11 bottom_col pt-md-4 pb-md-2  mx-2 my-auto">
-              <div className="row py-0 justify-content-center">
-                <div className="col-xl-6 col-12 order-lg-first order-last">
-                  <div className="row px-2">
-                    <div className="col-auto col-lg-6 py-md-4 py-3 px-3 border-end border-bottom ">
-                      <h5><span>Social Media Marketing</span></h5>
-                    </div>
-                    <div className="col-auto col-lg-6  py-md-4 py-3 px-3 border-bottom">
-                    <h5>Search Engine Optimizaion</h5>
+        <div className="row bottom justify-content-center border_col_1">
+          <div className="col-md-5 px-md-5 px-4 py-md-4 py-3 my-auto">
+           
+          </div>
+          <div className="col-md-6 px-md-5 px-2 py-4 my-auto">
+            <div className="text my-auto">
+              <div className="row py-4 px-3  m-0 ">
+                <div className="col-md-12 px-3 py-2 ">
+                <img src={laptopicon} alt="" />
+                  <h4 className='mt-2'>Laptop Repairing</h4>
+                  <p>When it comes to the best and quickest electronic repair service for laptops, our team excels in delivering top-notch solutions. Whether it's a broken screen, malfunctioning keyboard, or software issues, our experts have the expertise to swiftly diagnose and repair all laptop brands and models. With a focus on quality and efficiency, we use state-of-the-art tools and genuine parts to ensure that your laptop is restored to its optimal condition in no time.
+                  </p></div>
+                 
 
-                    </div>
-                    <div className="col-auto col-lg-6  py-md-4 py-3 px-3 border-bottom border-end">
-                      <h5>PPC Marketing</h5>
-                    </div>
-                    <div className="col-auto col-lg-6 py-md-4 py-3 px-3 border-bottom">
-                      <h5><span>Google Adwords</span></h5>
-                    </div>
-                    <div className="col-auto col-lg-6 py-md-4 py-3 px-3 border-end">
-                      <h5><span>Content Marketing</span></h5>
-                    </div>
-                    <div className="col-auto col-lg-6 py-md-4 py-3 px-3 px-4">
-                      <h5>SEO Audit</h5>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-xl-5 col-md-12  order-lg-last order-first text-center px-md-3 px-4">
-                  <h6 className='text-start mt-3'>Go Digital, Grow Fast!</h6>
-                  <p className='mt-md-3 mt-3 text-start'>Digital marketing is basically online communication that leads you to revenue generation by connecting potential customers to your brand.</p>
-                  <button className='btn mt-5 px-5  py-2 mb-4'>Get a Quote Now</button>
-                </div>
               </div>
             </div>
           </div>
+        </div> 
+        <div className="container top">
+          <div className="row my-5">
+            <h5 className='text-center my-1'>2- Graphics Cards Repairing</h5>
+          </div>
+        </div> 
+        <div className="row bottom border_col_2">
          
+          <div className="col-md-6 px-md-5 px-2 py-4 my-auto">
+            <div className="text my-auto">
+              <div className="row py-4 px-3  m-0 ">
+                <div className="col-md-12 px-3 py-2 ">
+                <img src={graphic_card_icon} alt="" />
+                  <h4 className='mt-2'>Graphics Cards Repairing</h4>
+                  <p>Need a fast and reliable electronic repair service for your graphics card? Look no further! Our skilled technicians specialize in diagnosing and fixing a wide range of graphics card issues, from overheating problems to driver conflicts and hardware failures. Using advanced diagnostic tools and techniques, we can quickly identify the root cause of the issue and provide the necessary repairs to get your graphics card running smoothly again, ensuring optimal performance for your gaming or professional needs.
+                  </p></div>
+                 
+
+              </div>
+            </div>
+          </div>
+
+        </div>  
+
+        <div className="container top">
+          <div className="row my-5">
+            <h5 className='text-center my-1'>3- Game Consoles Repairing</h5>
+          </div>
+        </div> 
+          <div className="row bottom justify-content-center border_col_3">
+          <div className="col-md-5 px-md-5 px-4 py-md-4 py-3 my-auto">
+          </div>
+          <div className="col-md-6 px-md-5 px-2 py-4 my-auto">
+            <div className="text my-auto">
+              <div className="row py-4 px-3  m-0 ">
+                <div className="col-md-12 px-3 py-2 ">
+                <img src={game_console_icon} alt="" />
+                  <h4 className='mt-2'>Game Consoles</h4>
+                  <p>When your game console is on the fritz, you need a repair service that can get you back in the game ASAP. Our experienced technicians are well-versed in repairing all major game console brands, including PlayStation, Xbox, and Nintendo. Whether it's a red ring of death, disc read errors, or software glitches, we have the expertise and tools to fix it quickly and effectively. Don't let a malfunctioning game console ruin your gaming experience – trust our speedy repair service to get you back to gaming in no time.
+                  </p></div>
+                 
+
+              </div>
+            </div>
+          </div>
+        </div> 
+
+        <div className="container top">
+          <div className="row my-5">
+            <h5 className='text-center my-1'>4- Tablets Repairing</h5>
+          </div>
+        </div> 
+        <div className="row bottom border_col_4">
+         
+          <div className="col-md-6 px-md-5 px-2 py-4 my-auto">
+            <div className="text my-auto">
+              <div className="row py-4 px-3  m-0 ">
+                <div className="col-md-12 px-3 py-2 ">
+                <img src={tablets_icon} alt="" />
+                  <h4 className='mt-2'>Tablets Repairing</h4>
+                  <p>Looking for the best and quickest electronic repair service for your tablet? You've come to the right place! Our skilled technicians are proficient in repairing all major tablet brands, including Apple iPad, Samsung Galaxy Tab, and Microsoft Surface. Whether your tablet has a cracked screen, battery issues, or software problems, we can diagnose and fix it efficiently to ensure that you're back to browsing, streaming, and gaming on your device in no time.
+                  </p></div>
+                 
+
+              </div>
+            </div>
+          </div>
+
+        </div>  
+
+
+        <div className="container top">
+          <div className="row my-5">
+            <h5 className='text-center my-1'>5- SmartPhones Repairing</h5>
+          </div>
+        </div> 
+          <div className="row bottom justify-content-center border_col_5">
+          <div className="col-md-5 px-md-5 px-4 py-md-4 py-3 my-auto">
+          </div>
+          <div className="col-md-6 px-md-5 px-2 py-4 my-auto">
+            <div className="text my-auto">
+              <div className="row py-4 px-3  m-0 ">
+                <div className="col-md-12 px-3 py-2 ">
+                <img src={phone_icon} alt="" />
+                  <h4 className='mt-2'>SmartPhones Repairing</h4>
+                  <p>When your smartphone is in need of repair, our fast and reliable service is here to help. From cracked screens and water damage to battery replacements and software issues, our technicians have the expertise to fix it all. We specialize in repairing popular smartphone brands such as Apple iPhone, Samsung Galaxy, Google Pixel, and OnePlus. With our quick turnaround times and quality repairs, you can trust us to get your smartphone back in working order so you can stay connected on the go.
+                  </p></div>
+                 
+
+              </div>
+            </div>
+          </div>
+        </div> 
+
+
+        <div className="container top">
+          <div className="row my-5">
+            <h5 className='text-center my-1'>6- Drones Repairing</h5>
+          </div>
+        </div> 
+        <div className="row bottom border_col_6">
+         
+          <div className="col-md-6 px-md-5 px-2 py-4 my-auto">
+            <div className="text my-auto">
+              <div className="row py-4 px-3  m-0 ">
+                <div className="col-md-12 px-3 py-2 ">
+                <img src={drones_icon} alt="" />
+                  <h4 className='mt-2'>Drones Repairing</h4>
+                  <p>If your drone is grounded due to technical issues, our electronic repair service can have you back in the air in no time. Whether it's motor failure, gimbal malfunctions, or connectivity issues, our experienced technicians can diagnose and repair all major drone brands, including DJI, Parrot, and Yuneec. With our fast and efficient service, you'll be capturing stunning aerial footage again in no time.
+                  </p></div>
+              </div>
+            </div>
+          </div>
+
+        </div> 
+
+        <div className="container top">
+          <div className="row my-5">
+            <h5 className='text-center my-1'>7- Cameras Repairing</h5>
+          </div>
+        </div> 
+          <div className="row bottom justify-content-center border_col_7">
+          <div className="col-md-5 px-md-5 px-4 py-md-4 py-3 my-auto">
+          </div>
+          <div className="col-md-6 px-md-5 px-2 py-4 my-auto">
+            <div className="text my-auto">
+              <div className="row py-4 px-3  m-0 ">
+                <div className="col-md-12 px-3 py-2 ">
+                <img src={cameras_icon} alt="" />
+                  <h4 className='mt-2'>Cameras Repairing</h4>
+                  <p>Don't let a malfunctioning camera ruin your photo or video shoot – our electronic repair service specializes in fixing all types of camera issues. Whether it's a DSLR, mirrorless, or point-and-shoot camera, our skilled technicians can diagnose and repair problems such as lens errors, sensor issues, and shutter malfunctions. With our quick turnaround times and attention to detail, you can trust us to get your camera back in working order so you can capture all of life's precious moments without missing a beat.
+                  </p></div>
+                 
+
+              </div>
+            </div>
+          </div>
+        </div> 
+
         </div>
+        
     </div>
   )
 }

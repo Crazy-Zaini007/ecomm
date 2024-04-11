@@ -44,7 +44,6 @@ export default function SoftwareServices() {
                 <h5>What We Offers? <span >We combine creativity and pragmatism to develop custom solutions for you!</span></h5>
             </div>
         </div>
-
         
         </div>
         <div className="container-fluid">

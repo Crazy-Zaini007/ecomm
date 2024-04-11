@@ -152,8 +152,8 @@ const[option8, setOption8]=useState(false)
                             <img src={repair} alt="service" />
 
                             <h3 className='my-2'>Electronics Repair</h3>
-                            <p>We provide guaranteed electronics repairs with excellence of professional technicians,<span style={!option8 ? {display:"none"}:{}}> worth decades of electronics knowledge Swift, top-notch circuit board repairs for laptop, latest tech for smartphones, TVs, industrial electronics and much more with our sophisticated electronics test equipment. Your satisfaction is guaranteed and we ensure repair in quick time!</span> <Link className='read_more_btn' onClick={()=>setOption8(!option8)}>{!option8 ? "Read more...":"Read less..."}</Link></p>
-                            <Link className='btn btn-sm ' to='/marketing/services'>Explore now</Link>
+                            <p>We provide guaranteed electronics repairs with excellence of professional technicians,<span style={!option8 ? {display:"none"}:{}}> worth decades of electronics knowledge Swift, top-notch circuit board repairs for laptop, latest tech for smartphones, TVs, industrial electronics and much more with our sophisticated electronics test equipment. Your satisfaction is guaranteed and we ensure repair in quick time! Contact us at mobile 054 203 6693 or send your query via our website for instant bookings.</span> <Link className='read_more_btn' onClick={()=>setOption8(!option8)}>{!option8 ? "Read more...":"Read less..."}</Link></p>
+                            <Link className='btn btn-sm ' to='/electronics_repairs'>Explore now</Link>
                         </div>
                     </div>
                   
