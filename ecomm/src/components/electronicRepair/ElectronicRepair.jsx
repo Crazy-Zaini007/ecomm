@@ -21,6 +21,12 @@ import goalicon from '../../assets/icons/goal-icon.png'
 
 import marketingimage from '../../assets/markeitingimage.jpg'
 
+
+import appleicon from '../../assets/icons/apple_icon.png'
+import androidicon from '../../assets/icons/androidicon.png'
+import appdevelopmentimage from '../../assets/development.jpg'
+
+
 export default function Marketing() {
   return (
     <div className='marketing'>
@@ -175,7 +181,7 @@ export default function Marketing() {
                 <h6 className='mt-3'>Sales growth by allowing customers to follow you everywhere!</h6>
                 <p className='mt-3'>Optimize your website to get on the top of Google ranking, Our google certified professionals are expert in Search Engine Optimization following design responsiveness, keyword analysis, up to date algorithms, organic and paid search.</p>
                 <p className='mt-4'>We help you to market your product by trending on social media & tailor you marketing cost by taking full advantage of digital marketing.</p>
-                
+                <h5></h5>
               </div>
               </div>
             <div className="col-md-5 col-sm-12  px-3 my-auto">

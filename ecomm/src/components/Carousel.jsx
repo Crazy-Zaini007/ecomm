@@ -28,10 +28,11 @@ const[option8, setOption8]=useState(false)
     return (
         <>
             <div className="container pt-4 home_page mb-2">
-                <div className="row ">
-                    <div className='col-lg-6 col-md-5 pt-md-5'>
+                <div className="row justify-content-center">
+                    <div className='col-lg-12 col-xl-6 col-md-12 pt-md-5'>
                         <h2>Leading Business Communication <span>Solution Provider</span></h2>
-                        <p>We gives you your office on your desktop or on your mobile no matter where you are. All you need to do is to <br /><strong >STAY CONNECTED</strong>!</p>
+                        <p>Welcome to <strong>Al Moaeed Technologies</strong>, your trusted partner for cutting-edge IT, telecom, structural cabling, fiber optics, and electronics repair services. As a leading provider in the industry, we specialize in delivering tailored solutions to meet the diverse needs of businesses across various sectors.
+                          Experience the difference of working with a trusted partner who understands your connectivity needs. Contact us today to earn more.</p>
                         <Link className="btn m-1 " to='/'>Get Started</Link>
                         {/* <Link  className="btn m-1 login_btn px-4 rounded" to='/login_seller'>Login</Link> */}
 
@@ -39,7 +40,7 @@ const[option8, setOption8]=useState(false)
                     <div className="col-sm-1">
 
                     </div>
-                    <div className="col-lg-5 col-md-6">
+                    <div className="col-lg-6 col-xl-5 col-md-12 text-center">
                         <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
                             <div className="carousel-inner">
                                 <div className="carousel-item active">
@@ -151,8 +152,8 @@ const[option8, setOption8]=useState(false)
                             <img src={repair} alt="service" />
 
                             <h3 className='my-2'>Electronics Repair</h3>
-                            <p>We provide guaranteed electronics repairs with excellence of professional technicians, worth decades of electronics knowledge <span style={!option8 ? {display:"none"}:{}}>Swift, top-notch circuit board repairs for laptop, latest tech for smartphones, TVs, industrial electronics and much more with our sophisticated electronics test equipment. Your satisfaction is guaranteed and we ensure repair in quick time!</span> <Link className='read_more_btn' onClick={()=>setOption8(!option8)}>{!option8 ? "Read more...":"Read less..."}</Link></p>
-                         
+                            <p>We provide guaranteed electronics repairs with excellence of professional technicians,<span style={!option8 ? {display:"none"}:{}}> worth decades of electronics knowledge Swift, top-notch circuit board repairs for laptop, latest tech for smartphones, TVs, industrial electronics and much more with our sophisticated electronics test equipment. Your satisfaction is guaranteed and we ensure repair in quick time!</span> <Link className='read_more_btn' onClick={()=>setOption8(!option8)}>{!option8 ? "Read more...":"Read less..."}</Link></p>
+                            <Link className='btn btn-sm ' to='/marketing/services'>Explore now</Link>
                         </div>
                     </div>
                   

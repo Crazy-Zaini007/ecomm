@@ -2,7 +2,6 @@ import React from 'react'
 import MainCloud from './MainCloud'
 import support from '../../../assets/icons/support.png'
 import supportImage from '../../../assets/support.jpg'
-import { Link } from 'react-router-dom'
 export default function Support() {
   return (
     <>
