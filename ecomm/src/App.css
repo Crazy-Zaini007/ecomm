@@ -2156,15 +2156,17 @@ footer .brand_name{
   font-weight: 600;
  -webkit-text-stroke: 1px #013a99;
 
-
 }
 footer .brand_name span{
   color: #0a7a2f;
   font-weight: 600;
  -webkit-text-stroke: 1px #0a7a2f;
-
-
 }
+
+footer p a{
+  
+}
+
 footer h6{
   color: white;
   font-weight: 500;

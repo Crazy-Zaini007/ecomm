@@ -12,7 +12,7 @@ export default function Navbar() {
 const actions = [
   { icon: <a href="https://wa.me/+971501440101" target="_blank" rel="noreferrer" ><WhatsAppIcon sx={{ background: "green", color: "white", borderRadius: "100%", fontSize: "28px",padding:"5px" }} /></a>, name: 'Whatsapp' },
   { icon: <a href="mailto:osmanrasheed@gmail.com"><MailIcon sx={{background:"blue",color:"white",borderRadius:"100%",fontSize:"28px" ,padding:"5px"}}/></a>, name: 'Email' },
-  { icon: <ConnectWithoutContactIcon sx={{background:"#6F47EB",color:"white",borderRadius:"100%",fontSize:"28px" ,padding:"5px"}}/>, name: 'Inquiry' },
+  // { icon: <ConnectWithoutContactIcon sx={{background:"#6F47EB",color:"white",borderRadius:"100%",fontSize:"28px" ,padding:"5px"}}/>, name: 'Inquiry' },
 ];
 
   return (

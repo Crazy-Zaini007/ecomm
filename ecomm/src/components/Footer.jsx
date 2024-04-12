@@ -15,6 +15,10 @@ export default function Footer() {
           <h6 className="text-uppercase fw-bold mb-4 brand_name">
             <img src={logo} className='me-2' alt="" />AlMoeed <span>Technologies</span> 
           </h6>
+         <p> <a href="tel:+971501440101" className='my-2 text-reset'><i className="fa-solid fa-phone me-1"></i>Tel:  +971501440101  </a></p>
+         <p> <a href="mailto:info@ecomm.ae" className='my-2 text-reset'><i className="fa-solid fa-envelope me-1"></i>Email:  info@ecomm.ae</a></p>
+         <p> <a href="https://wa.me/+971501440101" className='my-2 text-reset'><i className="fab fa-whatsapp me-1"></i>Whatsapp:  +971501440101  </a></p>
+
           {/* <p>
           We gives you your office on your desktop or on your mobile no matter where you are. All you need to do is to <br /><strong >STAY CONNECTED</strong>
           </p> */}
