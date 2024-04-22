@@ -5,7 +5,9 @@
 
   font-family: 'Titillium Web', sans-serif;
   /* font-family: 'Mulish', sans-serif; */
-
+}
+html {
+  scroll-behavior: smooth;
 }
 /* Colors */
 :root {
@@ -2105,6 +2107,14 @@ border: 1px solid rgba(251, 253, 255, 0.3);
   background-size: cover;
   min-height: 100vh;
 }
+
+.electronics .border_col_8{
+  background: url('./assets/industrial-repair.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
 
 .electronics .bottom .text{
 height: auto;

@@ -2,19 +2,22 @@ import React from 'react'
 import MainCloud from './MainCloud'
 import erp from '../../../assets/icons/erp.png'
 import sap from '../../../assets/Sap-Logo.png'
+import { Fade,Slide  } from "react-awesome-reveal";
+
 export default function ERPCloud() {
   return (
     <>
       <MainCloud></MainCloud>
     <div className="container-fluid my-3 erp_cloud">
         <div className="row">
-        <h4 className='text-center'><img src={erp} alt="" /> <span>ERP</span></h4>
+          <Fade><h4 className='text-center'><img src={erp} alt="" /> <span>ERP</span></h4></Fade>
+        
           <h6 className='text-center mb-3'>Draw maximum from SAP Business One ERP from Our Cloud Platform!</h6>
         </div>
         <div className="row bottom py-3">
             <div className="container my-auto content px-lg-5 ">
                 <div className="row px-lg-5 px-1 justify-content-center" >
-                <div className="col-lg-6 col-sm-8 left order-last order-lg-first">
+                <Slide direction="down" className="col-lg-6 col-sm-8 left order-last order-lg-first">
                 <div className="inner shadow m-1 py-3 px-lg-4 px-2 rounded">
                 <p>With more than 90,000 worldwide deployments</p>
                 <div className="image my-md-4 my-2">
@@ -24,8 +27,8 @@ export default function ERPCloud() {
                 <p className='mt-4 high-p'>99.95% uptime  |  NVMe powered machines  |   Managed Support for Cloud & SAP</p>
                 <p className="down-p mt-5">SAP <span>Business One</span> Clients, we offer Managed  Services & Cloud Infrastructure as a One Window Operation.</p>
                 </div>
-            </div>
-            <div className="col-lg-6 col-sm-8 right ">
+            </Slide>
+            <Slide direction="up" className="col-lg-6 col-sm-8 right ">
                 <div className="inner shadow m-1 py-3 px-lg-4 px-2 rounded">
                     <p>To gain the competitive edge, businesses need to be agile to respond to market demands at all levels of operation without increasing costs and waste or sacrificing efficiency. Adoption of ERP platform brings profound changes such as:</p>
                     <p className="high-p mt-4"><i className="fa-solid fa-check me-1" aria-hidden="true"></i>Increase productivity and lower costs</p>
@@ -38,7 +41,7 @@ export default function ERPCloud() {
                       <li className='my-2'>Increase productivity and output</li>
                     </ul>
                 </div>
-            </div>
+            </Slide>
                 </div>
             </div>
           

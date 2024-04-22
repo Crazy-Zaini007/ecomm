@@ -10,8 +10,8 @@ import ConnectWithoutContactIcon from '@mui/icons-material/ConnectWithoutContact
 export default function Navbar() {
   
 const actions = [
-  { icon: <a href="https://wa.me/+971501440101" target="_blank" rel="noreferrer" ><WhatsAppIcon sx={{ background: "green", color: "white", borderRadius: "100%", fontSize: "28px",padding:"5px" }} /></a>, name: 'Whatsapp' },
-  { icon: <a href="mailto:osmanrasheed@gmail.com"><MailIcon sx={{background:"blue",color:"white",borderRadius:"100%",fontSize:"28px" ,padding:"5px"}}/></a>, name: 'Email' },
+  { icon: <a href="https://wa.me/+971501440101" target="_blank" rel="noreferrer" ><WhatsAppIcon sx={{ background: "green", color: "white", borderRadius: "100%", fontSize: "45px",padding:"10px" }} /></a>, name: 'Whatsapp' },
+  { icon: <a href="mailto:osmanrasheed@gmail.com"><MailIcon sx={{background:"blue",color:"white",borderRadius:"100%",fontSize:"45px" ,padding:"5px"}}/></a>, name: 'Email' },
   // { icon: <ConnectWithoutContactIcon sx={{background:"#6F47EB",color:"white",borderRadius:"100%",fontSize:"28px" ,padding:"5px"}}/>, name: 'Inquiry' },
 ];
 
@@ -29,11 +29,11 @@ const actions = [
 </nav>
       <SpeedDial
         ariaLabel="SpeedDial basic example"
-        sx={{ position: 'fixed', bottom: 16, right: 20 }}
+        sx={{ position: 'fixed', bottom: 16, right: 50 }}
         icon={<AddIcCallIcon />}
       >
         {actions.map((action) => (
-          <SpeedDialAction sx={{height:"45px", width:"45px"}}
+          <SpeedDialAction sx={{height:"60px", width:"60px"}}
             key={action.name}
             icon={action.icon}
             tooltipTitle={action.name}

@@ -3,6 +3,8 @@ import MainCloud from './MainCloud'
 import host from '../../../assets/icons/hosting.png'
 import hosting from '../../../assets//hosting.jpg'
 import { Link } from 'react-router-dom'
+import { Fade,Slide  } from "react-awesome-reveal";
+
 export default function HostCloud() {
   return (
     <>
@@ -10,7 +12,8 @@ export default function HostCloud() {
 
       <div className="container-fluid my-2 host_cloud">
         <div className="row mx-2 mx-lg-0 ">
-        <h4 className='text-center'><img src={host} alt="" /><span>Host</span></h4>
+        <Fade><h4 className='text-center'><img src={host} alt="" /><span>Host</span></h4></Fade>
+        
           <h6 className='text-center mb-3'>Your clients recognizes by your Business ID (Internet Domain)!</h6>
           <div className="col-lg-6 col-sm-12 px-md-5 px-4 py-5  content bg-white my-2 mx-lg-0 my-auto shadow">
             <h4>Empower Your Online Presence with Reliable and Secure Web Hosting Solutions.</h4>
@@ -25,11 +28,11 @@ export default function HostCloud() {
             </div>
             <p>Standard Packages are available for Individual Accounts, our Business Model encourages Resellers for every service. cPanel Account Management is available to Resellers. <br /><br />Prices are exclusive of all types of applicable taxes.</p>
           </div>
-          <div className="col-md-6 d-lg-block d-none">
+          <Fade className="col-md-6 d-lg-block d-none">
             <div className="image my-auto">
                 <img src={hosting} alt="" />
             </div>
-          </div>
+          </Fade>
         </div>
       </div>
     </>

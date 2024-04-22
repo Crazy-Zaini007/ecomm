@@ -1,6 +1,7 @@
 import React from 'react'
 import MainCloud from './MainCloud'
 import compute from '../../../assets/icons/compute.png'
+import { Fade,Slide  } from "react-awesome-reveal";
 
 export default function ComputeCloud() {
   return (
@@ -8,14 +9,14 @@ export default function ComputeCloud() {
       <MainCloud></MainCloud>
       <div className="container my-2 compute_cloud">
         <div className="row ">
-          <h4 className='text-center'><img src={compute} alt="" /> <span>Compute</span></h4>
+          <Fade><h4 className='text-center'><img src={compute} alt="" /> <span>Compute</span></h4></Fade>
           <h6 className='text-center mb-3'>Compute Offers Customized configuration on VM, VPS or dedicated machines.</h6>
         </div>
         <div className="row bottom justify-content-center ">
-          <div className="col-md-5 px-md-5 px-4 py-md-4 py-3 my-auto">
+          <Slide direction="right" className="col-md-5 px-md-5 px-4 py-md-4 py-3 my-auto">
             <h5 className='my-4'>Work from Anywhere, work from home or work on the move!</h5>
-          </div>
-          <div className="col-md-7 px-md-5 px-2  my-auto">
+          </Slide>
+          <Slide  className="col-md-7 px-md-5 px-2  my-auto">
             <div className="text  my-auto">
               <div className="row p-0 m-0 ">
                 <div className="col-md-6 p-3 shadow rounded">
@@ -40,7 +41,7 @@ export default function ComputeCloud() {
                     Managed/ Un-Managed Support</p></div>
               </div>
             </div>
-          </div>
+          </Slide>
         </div>
         <div className="row pricing my-md-5 my-4 px-md-5">
           <h3 className='text-center'>Our services are driven by Customer Requirements. ? <span>Our Objectives are driven by Customer Care</span> !</h3>
@@ -56,7 +57,7 @@ export default function ComputeCloud() {
 
           <div className="col-lg-7 co-12 my-auto">
             <div className="row justify-content-center">
-              <div className="col-auto my-auto ">
+              <Slide className="col-auto my-auto ">
                 <div className="card shadow small_card   tex-center my-3">
                   <h3 className='text-center'>Cirrus</h3>
                   <hr />
@@ -68,8 +69,8 @@ export default function ComputeCloud() {
                   <h5 className='text-center'>10</h5>
 
                 </div>
-              </div>
-              <div className="col-auto my-auto">
+              </Slide>
+              <Slide direction="up" className="col-auto my-auto">
               <div className="card  shadow large_card tex-center my-3">
                   <h3 className='text-center mb-0'>Stratus</h3>
                   <hr className=''/>
@@ -80,8 +81,8 @@ export default function ComputeCloud() {
                   <h4 className='mt-3 text-center'>CORE</h4>
                   <h5 className='text-center'>18</h5>
                 </div>
-              </div>
-              <div className="col-auto  my-auto ">
+              </Slide>
+              <Slide direction="right" className="col-auto  my-auto ">
               <div className="card shadow small_card  my-3">
                   <h3 className='text-center'>Cumulus</h3>
                   <hr />
@@ -92,7 +93,7 @@ export default function ComputeCloud() {
                   <h4 className='mt-3 text-center'>CORE</h4>
                   <h5 className='text-center'>38</h5>
                 </div>
-              </div>
+              </Slide>
             </div>
             </div>     
 

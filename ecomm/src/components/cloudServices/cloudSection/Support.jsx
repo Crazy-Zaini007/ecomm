@@ -2,18 +2,20 @@ import React from 'react'
 import MainCloud from './MainCloud'
 import support from '../../../assets/icons/support.png'
 import supportImage from '../../../assets/support.jpg'
+import { Fade,Slide  } from "react-awesome-reveal";
 export default function Support() {
   return (
     <>
     <MainCloud></MainCloud>
       <div className="container-fluid my-2 support">
         <div className="row mx-2 mx-lg-0">
-        <h4 className='text-center'><img src={support} alt="" className='me-1'/><span>Support</span></h4>
+          <Fade> <h4 className='text-center'><img src={support} alt="" className='me-1'/><span>Support</span></h4></Fade>
+       
           <h6 className='text-center mb-3'>Trouble Ticketing System</h6>
           <div className="col-md-6 d-lg-block d-none">
-            <div className="image my-auto">
+            <Fade className="image my-auto">
                 <img src={supportImage} alt="" />
-            </div>
+            </Fade>
           </div>
         <div className="col-lg-6 col-sm-12 px-md-5 px-4 py-5 content bg-white my-2 mx-lg-0 my-auto shadow">
             <h4>Managed/ Un-Managed Support is available for our clients <br />with:</h4>
